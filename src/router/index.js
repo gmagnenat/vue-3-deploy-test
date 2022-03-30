@@ -6,7 +6,7 @@ import NotFound from '@/views/NotFound.vue';
 
 const routes = [
   {
-    path: '*',
+    path: '/:pathMatch(.*)*',
     name: 'Notfound',
     component: NotFound
   },
